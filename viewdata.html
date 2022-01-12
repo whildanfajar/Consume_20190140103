@@ -15,20 +15,28 @@
 <body>
   <section>
     <div class="container">
-      <h1 style="margin-top: 50px;">Data List Barang</h1>
-      <a class="btn btn-success ms-2 mt-5" style="background-color: #858ab3; border:none; margin-bottom: 30px;"
-        href="addData.html">Add Data</a>
+      <h1 style="margin-top: 50px;">Data List Sparepart</h1>
+      <a class="btn btn-success ms-2 mt-5"
+        style="background-color: #66CDAA; border:none; margin-bottom: 30px;font-family: Manga pro ;"
+        href="addData.html">Add
+        Data</a>
       <table id="dataTable" class="table table-bordered table-hover">
         <thead>
-          <th>idsparepart</th>
-          <th>namasparepart</th>
-          <th>harga</th>
+          <th>Id Sparepart</th>
+          <th>Nama Sparepart</th>
+          <th>Harga</th>
           <th>Jumlah</th>
         </thead>
       </table>
     </div>
   </section>
-
+  <style>
+    body {
+      background-image: url("https://wallup.net/wp-content/uploads/2018/09/25/610488-abstract-hexagon-simple-minimalism.jpg");
+      background-repeat: no-repeat;
+      background-size: cover
+    }
+  </style>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   <script src="service.js"></script>
